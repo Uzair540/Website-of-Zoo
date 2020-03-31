@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<style>
+  #cp{
+    background-image: url('I:/website/zoo2/slider/g2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .form-dark{
+    background-image: url('I:/website/zoo2/slider/g2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .card{
+    background-image: url('I:/website/zoo2/slider/g2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightblue;
+    width: 400px;
+    padding: 5px;
+  }
+  #grass{
+    background-color: lightblue;
+    background-image: url('I:/website/zoo2/slider/g2.gif');
+    background-size: cover;
+    }
+
+   
+   #a{
+     background-image: url('I:/website/zoo2/slider/g2.gif');
+     background-size: cover;
+       background-color: lightgreen;
+   }
+   #carouselExampleSlidesOnly{
+    padding-left: 10px;
+    width:100%;
+    display: inline-block;
+     }
+     #tra{
+     background-color: lightblue;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+   } 
+   
+   #pad{
+    padding-top: 5px;
+    padding bottom: 5px;
+     padding-left:5px;
+   }
+   
+   .panel-title:h5{
+     color: black
+   }
+   #body{
+     background-color: lightgreen;
+   }
+   .form-dark .font-small {
+font-size: 0.8rem; }
+
+.form-dark [type="radio"] + label,
+.form-dark [type="checkbox"] + label {
+font-size: 0.8rem; }
+
+.form-dark [type="checkbox"] + label:before {
+top: 2px;
+width: 15px;
+height: 15px; }
+
+.form-dark .md-form label {
+color: #fff; }
+
+.form-dark input[type=text]:focus:not([readonly]) {
+border-bottom: 1px solid #00C851;
+-webkit-box-shadow: 0 1px 0 0 #00C851;
+box-shadow: 0 1px 0 0 #00C851; }
+
+.form-dark input[type=text]:focus:not([readonly]) + label {
+color: #fff; }
+
+.form-dark input[type=password]:focus:not([readonly]) {
+border-bottom: 1px solid #00C851;
+-webkit-box-shadow: 0 1px 0 0 #00C851;
+box-shadow: 0 1px 0 0 #00C851; }
+
+.form-dark input[type=password]:focus:not([readonly]) + label {
+color: #fff; }
+
+.form-dark input[type="checkbox"] + label:before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 17px;
+height: 17px;
+z-index: 0;
+border: 1.5px solid #fff;
+border-radius: 1px;
+margin-top: 2px;
+-webkit-transition: 0.2s;
+transition: 0.2s; }
+
+.form-dark input[type="checkbox"]:checked + label:before {
+top: -4px;
+left: -3px;
+width: 12px;
+height: 22px;
+border-style: solid;
+border-width: 2px;
+border-color: transparent #00c851 #00c851 transparent;
+-webkit-transform: rotate(40deg);
+-ms-transform: rotate(40deg);
+transform: rotate(40deg);
+-webkit-backface-visibility: hidden;
+-webkit-transform-origin: 100% 100%;
+-ms-transform-origin: 100% 100%;
+transform-origin: 100% 100%; }
+
+   
+    </style>
+  </head>
+<body>
+  <div id="body">
+    <div id="body">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///C:/Users/cw/Desktop/New%20folder/zoo/index.html" target="blank">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/cw/Desktop/New%20folder/zoo1/about.html" target="blank">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/cw/Desktop/New%20folder/zoo2/contact.html" target="blank">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="file:///C:/Users/cw/Desktop/New%20folder/zoo3/animation.html" target="blank">Updates</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="color">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="slider/2.png"  alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="slider/122.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="slider/12.jpg"  alt="Third slide">
+        
+      </div>
+    </div>
+  </div>
+</div>
+<br/>
+<div id="tra">
+        <center><h2><b>ZOO LOCATION</b></h2></center>
+        </div>
+        <div id="a">
+      
+          <div id="pad">
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="1094" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=zoo%20karachi&t=&z=5&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">pure black</a></div><style>.mapouter{text-align:right;height:450px;width:1094px;}.gmap_canvas {overflow:hidden;background:none!important;height:450px;width:1094px;}</style></div>
+        </div>
+      
+    </div>
+    <BR/>
+    <div id="tra">
+        <center><h2><b>FACILITIES AND SERVICES</b></h2></center>
+        </div>
+        <BR/>
+        <div id="cp">
+       
+
+    <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+        <div class="container">
+        
+        
+          <h4><B>FAQ</B></h4>
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+            <h5 class="panel-title">
+              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                  What Items Are Prohibited Or Restricted At The Zoo And Safari Park?
+              </a>
+            </h5>
+            </div>
+            <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+            <div class="panel-body px-3 mb-4">
+              <p><li>Alcohol, marijuana (including marijuana-enriched products), and any illegal substances</li>
+                 <li>Any transportation device not otherwise approved as a mobility device (e.g. motorcycles, motorized/non-motorized scooters, trailer-like objects pushed or towed by an ECV)</li>
+                  <li>AM/FM radios or any type of music player</li>
+                  <li>Attire depicting pictures or words that may be considered offensive or profane to other guests</li>
+                  <li>Balloons, balls, Frisbees, jump ropes</li>
+                  <li>Any throwing/kicking toy</li>
+                  <li>Bug nets</li></p>
+             
+            </div>
+            </div>
+          </div>
+          
+          <div class="panel panel-default">
+            <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+            <h5 class="panel-title">
+              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                  How Much Is Parking At The Zoo/Safari Park?
+              </a>
+            </h5>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+            <div class="panel-body px-3 mb-4">
+              <p>The Zoo has free parking. The parking lot in front of the Zoo is owned and operated by the City of San Diego and is used by guests, volunteers and employees of Balboa Park. </p>
+            </div>
+            </div>
+          </div>
+          
+          <div class="panel panel-default">
+            <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+            <h5 class="panel-title">
+              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                  Does The Zoo/Safari Park Have Lockers For Visitors To Use?
+              </a>
+            </h5>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+            <div class="panel-body px-3 mb-4">
+              <p>At the Zoo, we have quarter-operated lockers located in Discovery Outpost across from Poppy's Patio.
+                  Small locker: 16x24x14
+                  Large locker: 29x15x23</p>
+            </div>
+            </div>
+          </div>
+          
+          <div class="panel panel-default">
+            <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+            <h5 class="panel-title">
+              <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                  Does The Zoo/Safari Park Have Special Birthday Packages?
+              </a>
+            </h5>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+            <div class="panel-body px-3 mb-4">
+              <p>Celebrate your child’s birthday at the San Diego Zoo with our Aussie Outback Birthdays, a once-in-a-lifetime Australian adventure! Children ages 10 and younger will enjoy a special birthday celebration in our Aussie Outback party room, hosted by our knowledgeable and fun-loving Zoo educators.</p>
+            </div>
+            </div>
+          </div>
+          </div>
+        
+        </div>
+      </section>
+    </div>
+      <div id="tra">
+            <center><h2><b>FOR-HELP</b></h2></center>
+            </div>
+            <div id="cp">
+            <div class="container">
+              <h4><b>URGENT HELP</b></h4>
+              <p><b>Contact us through email:</b></p>
+              <form>
+                <div class="form-group">
+                  <label for="pwd"><b>Enter E-mail:</b></label>
+                  <input type="Email" class="form-control" id="pwd" placeholder="Enter E-mail">
+                  
+                </div>
+                <button type="submit" class="btn btn-default"><b>Submit</b></button>
+              </form>
+            </div></div>
+            
+            <div id="tra"><center><h2><b>LIVE CONTACT</b></h2></center>
+            </div>
+            <div id="cp">
+            <div class="container">
+              <h4><b>LIVE RESPONSE</b></h4>
+              <p><i><b>For live response of any query you can contact our zoo member by typing your query regarding any relevant confusion</b></i></p><br>
+              
+              <!-- Left-aligned media object -->
+              <div class="media">
+                <div class="media-left">
+                  <img src="slider/download (1).jpg" class="media-object" style="width:60px">
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading"><b><i>USER</i></b></h4>&nbsp;&nbsp;
+                  <p><i><b>I have abc query regarding your xyz depart will you please help me to overcome from this issue??</b></i></p>
+                </div>
+              </div>
+              <hr>
+              
+              <!-- Right-aligned media object -->
+              <div class="media">
+                <div class="media-body">
+                  <h4 class="media-heading"><b><i>ZOO EMPLOYEE</i></b></h4>
+                  <p><b><i>Hello sir!!how can i help you ???</i></b></p>
+                </div>
+                <div class="media-right">
+                  <img src="slider/group-icon-1024x1024.png" class="media-object" style="width:60px">
+                </div>
+              </div>
+            </div></div>
+            <div id="tra"><center><h2><b>FEEDBACK FORM</b></h2></center>
+            </div>
+            <div id="cp">
+            <div class="container">
+                <h4><B><I>LOGIN THROUGH EMAIL</I></B></h4>
+                <form class="form-horizontal" action="/action_page.php">
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="email"><B><I>Email:</I></B></label>
+                    <div class="col-sm-10">
+                      <p class="form-control-static"><B><I>someone@example.com</I></B></p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="pwd"><B><I>Password:</I></B></label>
+                    <div class="col-sm-10">          
+                      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                    </div>
+                  </div>
+                  <div class="form-group">        
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-default"><b><i>Submit</i></b></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="container">
+                  <h4><b><i>Sugestions</i></b></h4>
+                  <p><b><i>Comments your suggestions for our improvements</i></b></p>
+                  <form>
+                    <div class="form-group">
+                      <label for="comment"><b><i>COMMENTS</i></b></label>
+                      <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="container">
+                    <h3><B><I>RATE US</I></B></h3>
+                    <p><b><i>Rate us A/C to our SERVICES:</i></b></p>
+                    <form>
+                      <div class="radio">
+                        <label><input type="radio" name="optradio" checked><b><i>100% upto the Mark</i></b></label>
+                      </div>
+                      <div class="radio">
+                        <label><input type="radio" name="optradio" checked><b><i>50% upto the Mark</i></b</label>
+                      </div>
+                      <div class="radio">
+                          <label><input type="radio" name="optradio" checked><b><i>25% upto the Mark</i></b></label>
+                        </div>
+                      <div class="radio">
+                        <label><input type="radio" name="optradio" checked><b><i>0% upto the Mark</i></b></label>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                                
+            
+            
+           
+            
+            
+            <div id="grass">
+                <a href="http://www.animatedimages.org/cat-animals-132.htm"><img src="http://www.animatedimages.org/data/media/132/animated-animal-image-0012.gif" border="0" alt="animated-animal-image-0012" /></a>
+               <a href="http://www.animatedimages.org/cat-animals-132.htm"><img src="http://www.animatedimages.org/data/media/132/animated-animal-image-0021.gif" border="0" alt="animated-animal-image-0021" /></a>
+               &nbsp;&nbsp;&nbsp; <a href="http://www.animatedimages.org/cat-animals-132.htm"><img src="http://www.animatedimages.org/data/media/132/animated-animal-image-0012.gif" border="0" alt="animated-animal-image-0012" /></a>
+               &nbsp;&nbsp;&nbsp; <a href="http://www.animatedimages.org/cat-animals-132.htm"><img src="http://www.animatedimages.org/data/media/132/animated-animal-image-0016.gif" width="50" border="0" alt="animated-animal-image-0016" /></a>
+               &nbsp;&nbsp;&nbsp;<a href="http://www.animatedimages.org/cat-animals-132.htm"><img src="http://www.animatedimages.org/data/media/132/animated-animal-image-0021.gif" border="0" alt="animated-animal-image-0021" /></a>
+               &nbsp;&nbsp;&nbsp;<a href="http://www.animatedimages.org/cat-animals-132.htm"><img src="http://www.animatedimages.org/data/media/132/animated-animal-image-0016.gif" width="50" border="0" alt="animated-animal-image-0016" /></a>
+              </div>
+        
+        
+    </div>
+</body>
+</html>
